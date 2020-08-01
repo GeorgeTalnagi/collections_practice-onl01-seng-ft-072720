@@ -28,36 +28,53 @@ end
 
 #takes in an array of integers and returns a copy of the array with the elements in reverse order.
 def reverse_array(array)
+<<<<<<< HEAD
    array.reverse
+=======
+   array.sort_by do |a| a.reverse
+  end
+>>>>>>> 1c1b9206bcb755244f3fd85200105f87568155e2
 end
 
 
 #takes in an array of strings and replaces the third character in each string with a $ ("dollar sign")—Ke$ha style. Use the .each method to iterate and build a new array to return at the end of your method, just like we did in the "My Each" lab.
 def kesha_maker(array)
+<<<<<<< HEAD
   new_array = []
   array.each do |word|
   word[2] = "$"
   new_array << word
   end
   new_array
+=======
+>>>>>>> 1c1b9206bcb755244f3fd85200105f87568155e2
 end
 
 #returns all the strings in the array passed to it that start_with? (hint) the letter "a". You'll want to use a high level iterator for this that finds, selects, or detects elements based on a condition.
 def find_a(array)
+<<<<<<< HEAD
   array.select do |a| a.start_with?("a")
   end
+=======
+>>>>>>> 1c1b9206bcb755244f3fd85200105f87568155e2
 end
 
 
 #adds together all of the integers in the array and returns their sum.
 def sum_array(array)
+<<<<<<< HEAD
 array.sum
+=======
+>>>>>>> 1c1b9206bcb755244f3fd85200105f87568155e2
 end
 
 
 #adds an "s" to each word in the array except for the second element in the array ("feet" is already plural).
 def add_s(array)
+<<<<<<< HEAD
   array.each_with_index do |word, index|
     word[word.length] = "s" unless index == 1
   end
+=======
+>>>>>>> 1c1b9206bcb755244f3fd85200105f87568155e2
 end
